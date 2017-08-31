@@ -279,46 +279,6 @@
 /*走进福怡 end*/
 
 /*工作环境 start*/
-@media screen and (min-width: 1300px) {
-    .workingEvn {
-        width: 100%;
-        height: auto;
-        padding: 80px 0;
-    }
-
-    .workingEvn_move {
-        text-align: center;
-    }
-
-    .workingEvn_move ul {
-        display: inline-block;
-    }
-
-    .workingEvn_move li {
-        float: left;
-        width: 35rem;
-        width: 350px \9;
-        height: 41rem;
-        height: 410px \9;
-    }
-
-    .workingEvn_move li img {
-        width: 100%;
-    }
-
-    .workingEvn_move li .workingEvn_move_Cn {
-        font-size: 2.4rem;
-        font-size: 24px \9;
-        margin-top: 30px;
-        color: #5D5D5D;
-    }
-
-    .workingEvn_move li .workingEvn_move_En {
-        font-size: 1.6rem;
-        font-size: 16px \9;
-        color: #ACACAC;
-    }
-}
 @media screen and (min-width: 320px) {
     .workingEvn {
         width: 100%;
@@ -332,7 +292,7 @@
     .head_one .head_one_text{
         font-size: 1.4rem;
         font-size: 14px\9;
-        padding:0  130px ;
+        padding:0 130px;
         color: #B7B7B7;
         margin-top: 1rem;
         margin-top: 10px\9;
@@ -348,22 +308,59 @@
 
     .workingEvn_move li {
         width: 35rem;
-        width: 350px \9;
+        width: 350px\9;
         height: 35rem;
-        height:35px \9;
+        height:35px\9;
     }
-
     .workingEvn_move li img {
         width: 100%;
     }
-
     .workingEvn_move li .workingEvn_move_Cn {
         font-size: 1.6rem;
-        font-size: 16px \9;
-        margin-top: 15px;
+        font-size: 16px\9;
+        margin-top: 1.5rem;
+        margin-top: 15px\9;
         color: #5D5D5D;
     }
 
+    .workingEvn_move li .workingEvn_move_En {
+        font-size: 1.6rem;
+        font-size: 16px \9;
+        color: #ACACAC;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .workingEvn {
+        width: 100%;
+        height: 100%;
+        height: 500px\9;
+        padding: 80px 0;
+        padding-top: 80px\9;
+        padding-bottom: 80px\9;
+    }
+    .workingEvn_move {
+        text-align: center;
+    }
+    .workingEvn_move ul {
+        display: inline-block;
+    }
+    .workingEvn_move li {
+        float: left;
+        width: 35rem;
+        width: 350px \9;
+        height: 41rem;
+        height: 410px \9;
+    }
+    .workingEvn_move li img {
+        width: 100%;
+    }
+    .workingEvn_move li .workingEvn_move_Cn {
+        font-size: 2.4rem;
+        font-size: 24px \9;
+        margin-top: 3rem;
+        margin-top: 30px\9;
+        color: #5D5D5D;
+    }
     .workingEvn_move li .workingEvn_move_En {
         font-size: 1.6rem;
         font-size: 16px \9;
@@ -378,6 +375,14 @@
     height: auto;
     background-color: #F2F2F2;
     padding: 80px 0;
+    margin-top: 80px\9;
 }
 /*我们的服务 end*/
 
+/*我们的产品 start*/
+.ourProducts{
+    width: 100%;
+    height: auto;
+    padding: 80px 0;
+}
+/*我们的产品 end*/
