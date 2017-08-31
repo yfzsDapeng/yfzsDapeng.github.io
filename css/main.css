@@ -386,3 +386,106 @@
     padding: 80px 0;
 }
 /*我们的产品 end*/
+
+/*行业动态 start*/
+.industryNews{
+    width: 100%;
+    height: auto;
+    padding: 80px 0;
+    background-color: #F2F2F2;
+}
+/*行业动态 end*/
+
+/*公司新闻 start*/
+@media screen and (min-width: 320px){
+    .companyNews{
+        width: 100%;
+        height: auto;
+        height: 580px\9;
+        padding:40px 0;
+        background-color: #108AB1;
+        text-align: center;
+    }
+    .companyNews .companyNews_title{
+        font-size: 2.4rem;
+        font-size: 24px\9;
+        color: white;
+        text-align: center;
+        margin-bottom: 5rem;
+        margin-bottom: 50px\9;
+    }
+    .companyNews ul {
+        display: inline-block;
+    }
+    .companyNews li {
+        width: 30rem;
+        width: 300px\9;
+        height: 35rem;
+        height:35px\9;
+    }
+    .companyNews li img {
+        width: 100%;
+    }
+    .companyNews p{
+        color: white;
+        text-align: left;
+    }
+    .companyNews_content{
+        margin-top: 2rem;
+        margin-top: 20px\9;
+        font-size: 1.6rem;
+        font-size: 16px\9;
+    }
+    .companyNews_time{
+        font-size: 1.4rem;
+        font-size: 14px\9;
+    }
+}
+@media screen and (min-width: 1200px){
+    .companyNews{
+        width: 100%;
+        height: auto;
+        height: 580px\9;
+        padding: 80px 0;
+        background-color: #108AB1;
+        text-align: center;
+    }
+    .companyNews .companyNews_title{
+        font-size: 2.4rem;
+        font-size: 24px\9;
+        color: white;
+        margin-bottom: 5rem;
+        margin-bottom: 50px\9;
+    }
+    .companyNews ul {
+        display: inline-block;
+    }
+    .companyNews li {
+        width: 30rem;
+        width: 300px\9;
+        height: 35rem;
+        height:35px\9;
+        float: left;
+    }
+    .companyNews li +li{
+        margin-left:30px;
+    }
+    .companyNews li img {
+        width: 100%;
+    }
+    .companyNews p{
+        color: white;
+        text-align: left;
+    }
+    .companyNews_content{
+        margin-top: 2rem;
+        margin-top: 20px\9;
+        font-size: 1.6rem;
+        font-size: 16px\9;
+    }
+    .companyNews_time{
+        font-size: 1.4rem;
+        font-size: 14px\9;
+    }
+}
+/*公司新闻 end*/
