@@ -464,7 +464,7 @@
 .companyNews{
     width: 100%;
     height: auto;
-    height: 580px\9;
+    height: 900px\9;
     padding: 80px 0;
     background-color:#F2F2F2;
 }
@@ -511,20 +511,6 @@
     color: #06C695;
     margin-top: 30px;
 }
-/*.companyNews p{*/
-/*color: white;*/
-/*text-align: left;*/
-/*}*/
-/*.companyNews_content{*/
-/*margin-top: 2rem;*/
-/*margin-top: 20px\9;*/
-/*font-size: 1.6rem;*/
-/*font-size: 16px\9;*/
-/*}*/
-/*.companyNews_time{*/
-/*font-size: 1.4rem;*/
-/*font-size: 14px\9;*/
-/*}*/
 /*公司新闻 end*/
 
 /*常见问题 start*/
@@ -533,6 +519,9 @@
     height: 100%;
     padding: 80px 0;
     margin: 0 auto;
+}
+.commonProblem_f{
+    height: 570px;
 }
 /*问题列表*/
 .commonProblemL{
@@ -619,38 +608,37 @@
     bottom: 15px;
     left: 105px;
 }
+
 .commonProblem_btn{
     width: 100%;
     height: 100%;
 }
-.commonProblem_btn .home_culture_university{
+.commonProblem_btn .university{
     width: 100%;
     height: 120px;
     border-top: 1px solid  #E4E4E4;
     border-bottom:1px solid #E4E4E4 ;
-    margin-top: 80px;
-
 }
-.commonProblem_btn .home_culture_university ul{
+.commonProblem_btn .university ul{
     width: 1200px;
     height: 120px;
     margin: 0 auto;
     text-align: center;
     padding: 0 160px;
 }
-.commonProblem_btn .home_culture_university ul li{
+.commonProblem_btn .university ul li{
     float: left;
     height: 120px;
     line-height: 120px;
     padding: 0 65px;
 }
-.commonProblem_btn .home_left{
+.commonProblem_btn .university_left{
     display: block;
     margin-left: 80px;
     height: 120px;
     line-height: 120px;
 }
-.commonProblem_btn .home_right{
+.commonProblem_btn .university_right{
     display: block;
     margin-right: 80px;
     height: 120px;
@@ -712,7 +700,6 @@
 .foot_center_right li a:hover{
     color: #06C494;
 }
-
 
 .foot_btn{
     width: 100%;
