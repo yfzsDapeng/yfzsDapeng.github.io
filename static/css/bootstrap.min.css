@@ -4594,6 +4594,12 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
         margin-left:  90px;
     }
 }
+@media (min-width:1920px) {
+    .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+        margin-right: 180px;
+        margin-left: 335px;
+    }
+}
 .navbar-static-top {
     z-index: 1000;
     border-width: 0 0 1px
