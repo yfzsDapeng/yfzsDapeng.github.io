@@ -499,59 +499,49 @@
     padding: 80px 0;
     background-color: #F2F2F2;
 }
-
 .companyNews .companyNews_title {
     font-size: 24px;
     color: #333333;
     margin-bottom: 55px;
 }
-
 .companyNews .companyNews_center {
     height: 620px;
     overflow: hidden;
     background-color: white;
 }
-
 .companyNews_center ul {
     width: 1000%;
 }
-
 .companyNews_center li {
     width: 585px;
     height: 605px;
     float: left;
 }
-
 .companyNews_center li img {
     width: 100%;
 }
-
 .companyNews_center dl {
     width: 435px;
     height: 165px;
     padding-left: 30px;
     margin-top: 25px;
 }
-
 .companyNews_center dt {
     font-size: 16px;
     line-height: 30px;
     color: #333333;
 }
-
 .companyNews_center dd {
     font-size: 14px;
     color: #747474;
     line-height: 30px;
 }
-
 .companyNews_center dl a {
     display: block;
     font-size: 14px;
     color: #06C695;
     margin-top: 30px;
 }
-
 /*公司新闻 end*/
 
 /*常见问题 start*/
@@ -561,32 +551,23 @@
     padding: 80px 0;
     margin: 0 auto;
 }
-
-.commonProblem_f {
-    height: 570px;
-}
-
 /*问题列表*/
 .commonProblemL {
     width: 580px;
     height: auto;
 }
-
 .commonProblemL_top {
     height: 45px;
     line-height: 45px;
     margin-bottom: 60px;
 }
-
 .commonProblemL_top span {
     font-size: 24px;
 }
-
 .commonProblemL_top a {
     font-size: 14px;
     color: #07C595;
 }
-
 .commonProblemL_title {
     height: 52px;
     line-height: 52px;
@@ -598,7 +579,6 @@
     text-align: left;
     margin-bottom: 20px;
 }
-
 .commonProblemL_title .commonProblem_icon {
     width: 48px;
     height: 48px;
@@ -607,18 +587,15 @@
     background-color: #F2F2F2;
     border-left: 1px solid #C2C2C2;
 }
-
 .commonProblemL_title:hover {
     color: #04C694;
     border-color: #04C694;
 }
-
 .commonProblemL_title .commonProblem_icon:hover {
     background-color: #04C694;
     border-color: #04C694;
     color: white;
 }
-
 .commonProblemL_text {
     text-align: left;
     font-size: 1.4rem;
@@ -627,7 +604,6 @@
     color: #808080;
     display: none;
 }
-
 /*联系我们*/
 .commonProblemR {
     width: 500px;
@@ -640,18 +616,15 @@
     border-top: none;
     position: relative;
 }
-
 .commonProblemR .commonProblemR_top {
     text-align: left;
     margin-bottom: 30px \9;
     font-size: 24px;
     margin-bottom: 60px;
 }
-
 .form-group {
     font-size: 16px;
 }
-
 .form_sub {
     font-size: 16px;
     width: 100px;
@@ -662,19 +635,17 @@
     bottom: 15px;
     left: 105px;
 }
-
 .commonProblem_btn {
     width: 100%;
     height: 100%;
 }
-
 .commonProblem_btn .university {
     width: 100%;
     height: 120px;
     border-top: 1px solid #E4E4E4;
     border-bottom: 1px solid #E4E4E4;
+    margin-top: 60px;
 }
-
 .commonProblem_btn .university ul {
     width: 1200px;
     height: 120px;
@@ -682,28 +653,24 @@
     text-align: center;
     padding: 0 160px;
 }
-
 .commonProblem_btn .university ul li {
     float: left;
     height: 120px;
     line-height: 120px;
     padding: 0 65px;
 }
-
 .commonProblem_btn .university_left {
     display: block;
     margin-left: 80px;
     height: 120px;
     line-height: 120px;
 }
-
 .commonProblem_btn .university_right {
     display: block;
     margin-right: 80px;
     height: 120px;
     line-height: 120px;
 }
-
 /*常见问题 end*/
 
 /*底部 start*/
@@ -714,63 +681,51 @@
     background-color: #1D1D1D;
     padding-top: 80px;
 }
-
 .foot_center {
     width: 100%;
     /*height: 445px;*/
     height: 340px;
 }
-
 .foot_center_left {
     width: 340px;
     height: 100%;
 }
-
 .foot_center_left h4 {
     color: #575757;
     font-size: 16px;
     margin-bottom: 30px;
 }
-
 .foot_center_left p {
     font-size: 14px;
     color: #8E8E8E;
     margin-bottom: 25px;
 }
-
 .foot_center_left p span {
     margin-right: 15px;
 }
-
 .foot_center_right {
     width: 770px;
     height: 100%;
 }
-
 .foot_center_right_all {
     margin-right: 90px;
 }
-
 .foot_center_right h4 {
     font-size: 24px;
     color: white;
     margin-bottom: 30px;
 }
-
 .foot_center_right li {
     margin-bottom: 15px;
     text-align: left;
 }
-
 .foot_center_right li a {
     color: white;
     font-size: 14px;
 }
-
 .foot_center_right li a:hover {
     color: #06C494;
 }
-
 .foot_btn {
     width: 100%;
     height: 70px;
@@ -779,10 +734,8 @@
     font-size: 16px;
     color: #666666;
 }
-
 .foot_btn a {
     color: #666666;
 }
-
 /*底部 end*/
 
