@@ -174,6 +174,34 @@
         display: block;
     }
 }
+@media (min-width: 1920px){
+    .banner_text {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(1, 22, 39, .8);
+        display: none;
+    }
+    .banner_text_all {
+        width: 100%;
+        height: 170px;
+        position: absolute;
+        top: 35%;
+    }
+    .banner_text_all h1 {
+        font-size: 48px;
+        font-weight: normal;
+        color: #FAFFFF;
+    }
+    .banner_text_all p {
+        font-size: 24px;
+        color: #FFFDFE;
+        display: block;
+    }
+}
 
 /*banner end*/
 
@@ -423,72 +451,47 @@
         padding-top: 80px \9;
         padding-bottom: 80px \9;
     }
-
     .workingEvn_head_one .workingEvn_head_one_title {
-        font-size: 4.8rem;
-        font-size: 48px \9;
+        font-size: 48px;
     }
-
     .workingEvn_head_one .workingEvn_head_one_text {
-        font-size: 1.6rem;
-        font-size: 16px \9;
+        font-size: 16px;
         padding: 0 130px;
         color: #B7B7B7;
-        margin-top: 1rem;
-        margin-top: 10px \9;
-        margin-bottom: 2rem;
-        margin-bottom: 20px \9;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
-
     .workingEvn_move {
-        width: 1260px;
-        overflow: hidden;
         text-align: center;
-        margin: 0 auto;
     }
-
     .workingEvn_move ul {
-        width: 1000%;
-        overflow: hidden;
         display: inline-block;
     }
-
     .workingEvn_move li {
         float: left;
-        width: 35rem;
-        width: 350px \9;
-        height: 41rem;
-        height: 410px \9;
+        width: 350px;
+        height: 410px;
     }
-
     .workingEvn_move li:hover {
         border: 1px solid #f2f2f2;
         box-shadow: 0 15px 10px #f4f4f4;
     }
-
     .workingEvn_move li:hover > .workingEvn_move_Cn {
         color: #5BD2AC;
     }
-
     .workingEvn_move li img {
         width: 100%;
     }
-
     .workingEvn_move li .workingEvn_move_Cn {
-        font-size: 2.4rem;
-        font-size: 24px \9;
-        margin-top: 3rem;
-        margin-top: 30px \9;
+        font-size: 24px;
+        margin-top: 30px;
         color: #5D5D5D;
     }
-
     .workingEvn_move li .workingEvn_move_En {
-        font-size: 1.6rem;
-        font-size: 16px \9;
+        font-size: 16px;
         color: #ACACAC;
     }
 }
-
 /*关于福怡 end*/
 
 /*公司新闻 start*/
@@ -499,25 +502,47 @@
     padding: 80px 0;
     background-color: #F2F2F2;
 }
-.companyNews .companyNews_title {
+.companyNews_title {
     font-size: 24px;
     color: #333333;
     margin-bottom: 55px;
 }
-.companyNews .companyNews_center {
+.companyNews_center {
     height: 620px;
     overflow: hidden;
     background-color: white;
 }
-.companyNews_center ul {
-    width: 1000%;
+.companyNews_center .companyNews_center_all{
+    width: 100%;
+    position: relative;
 }
-.companyNews_center li {
+.companyNews_center_all div{
+    display: inline-block;
     width: 585px;
     height: 605px;
-    float: left;
+    background-color:white;
 }
-.companyNews_center li img {
+.companyNews_center_all .companyNews_center_all_one{
+    position: absolute;
+    left:0;
+    top:0;
+}
+.companyNews_center_all .companyNews_center_all_two{
+    position: absolute;
+    right:150px;/*485*/
+    top:0;
+}
+.companyNews_center_all .companyNews_center_all_three{
+    position: absolute;
+    right: -100px;/*235*/
+    top:0;
+}
+.companyNews_center_all .companyNews_center_all_four{
+    position: absolute;
+    right: -350px;/*0*/
+    top:0;
+}
+.companyNews_center div img {
     width: 100%;
 }
 .companyNews_center dl {
