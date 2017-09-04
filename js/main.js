@@ -33,6 +33,10 @@ $(function () {
     })
 });
 
+// 走进福怡
+
+
+
 // 公司新闻轮播图
 // $('.accordion>li').on('mouseenter', function () {
 //     _this = $(this);
