@@ -28,43 +28,39 @@ $(function () {
 
 // 我们的产品
 
-
-// 走进福怡
+// 关于福怡
 
 
 
 // 公司新闻轮播图
 $(function () {
-    $this_two = $(".companyNews_center_all_two");
+    var $this_two = $(".companyNews_center_all_two");
     $this_two.mouseenter(function () {
         $this_two.animate({"right":"485px"},1000);
     }).mouseleave(function () {
         $this_two.animate({"right":"150px"},1000);
     });
 
-    $this_three = $(".companyNews_center_all_three");
+    var $this_three = $(".companyNews_center_all_three");
     $this_three.mouseenter(function () {
         $this_three.animate({"right":"235px"},1000);
     }).mouseleave(function () {
         $this_three.animate({"right":"-100px"},1000);
     });
 
-    $this_four = $(".companyNews_center_all_four");
+    var $this_four = $(".companyNews_center_all_four");
     $this_four.mouseenter(function () {
         $this_four.animate({"right":"0px"},1000);
     }).mouseleave(function () {
         $this_four.animate({"right":"-350px"},1000);
     });
-    $this_all = $(".companyNews_center");
+    var $this_all = $(".companyNews_center");
     $this_all.mouseleave(function () {
         $this_two.animate({"right":"150px"},1000);
         $this_three.animate({"right":"-100px"},1000);
         $this_four.animate({"right":"-350px"},1000);
     });
 });
-
-
-
 
 // 常见问题
 $(function () {
