@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="static/css/bootstrap.min.css">
     <link rel="stylesheet" href="static/css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="static/css/jquery-ui.min.css">
 
     <!--[if IE]>
     <script src="static/js/html5shiv.min.js"></script>
@@ -282,7 +283,7 @@
 
         </div>
         <div class="companyNews_center">
-            <div class="companyNews_center_all">
+            <div class="companyNews_center_all accordion">
                 <div class="companyNews_center_all_one">
                     <img src="image/companyNews1.png" alt="">
                     <dl class="companyNews_center_son">
@@ -538,4 +539,10 @@
 <script src="static/js/jquery-1.11.3.min.js"></script>
 <script src="static/js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
+<script src="static/js/jquery-ui.min.js"></script>
+<script>
+    $( function() {
+        $( "#accordion" ).accordion();
+    } );
+</script>
 </html>
