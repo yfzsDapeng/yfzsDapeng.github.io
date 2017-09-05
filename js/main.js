@@ -30,8 +30,6 @@ $(function () {
 
 // 关于福怡
 
-
-
 // 公司新闻轮播图
 $(function () {
     var $this_two = $(".companyNews_center_all_two");
