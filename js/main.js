@@ -10,7 +10,7 @@ $(function () {
 // banner
 $(function () {
     $(".banner").mouseenter(function () {
-        $(".banner_text").fadeIn(2000);
+        $(".banner_text").fadeIn(3000);
     }).mouseleave(function () {
         $(".banner_text"). fadeOut(2000);
     })
