@@ -3825,7 +3825,7 @@ tbody.collapse.in {
     min-width: 160px;
     padding: 5px 0;
     margin: 2px 0 0;
-    font-size: 14px;
+    font-size: 18px;
     text-align: left;
     list-style: none;
     background-color: #fff;
@@ -4576,34 +4576,32 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 }
 @media (min-width: 992px) {
     .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
-        margin-right: 95px;
-        margin-left: -25px
+        margin-right: 130px;
+        margin-left: -5px
     }
 }
 
 @media (min-width: 1200px) {
     .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
-        margin-right: 300px;
-        margin-left:  -25px;
+        margin-right: 215px;
+        margin-left:  -10px;
     }
 }
 @media (min-width: 1366px) {
     .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
-        margin-right: 340px;
-        margin-right: 0\9;
-        margin-left: 55px;
+        margin-right: 250px;
+        margin-left: 70px;
     }
 }
 @media (min-width: 1438px) {
     .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
-        margin-right: 330px;
-        margin-right: 0\9;
-        margin-left: 95px;
+        margin-right: 250px;
+        margin-left: 110px;
     }
 }
 @media (min-width:1920px) {
     .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
-        margin-right:335px;
+        margin-right:270px;
         margin-left: 330px;
     }
 }
@@ -4925,8 +4923,8 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #08C494;
-    border-bottom: 2px solid #08C494;
+    color: #11B1F5;
+    border-bottom: 2px solid #11B1F5;
 }
 
 .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:focus, .navbar-default .navbar-nav > .disabled > a:hover {
@@ -4951,7 +4949,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
-    color: #08C494;
+    color: #11B1F5;
 }
 
 @media (max-width: 767px) {

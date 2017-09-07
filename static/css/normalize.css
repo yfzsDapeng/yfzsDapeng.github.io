@@ -374,31 +374,29 @@ ol, ul, li {
 .fr{
   float: right;
 }
-.head_one{
+.header{
+  width: 100%;
+  height: 95px;
   text-align: center;
+  margin-bottom: 99px;
 }
-.head_one .head_one_title{
-  font-size: 24px;
-  color: #343434;
+.header p{
+  display: inline-block;
+  width: 133px;
 }
-.head_one .head_one_text{
-  font-size: 16px;
-  color: #B7B7B7;
-  margin-top: 30px;
-  margin-bottom: 50px;
+.header .header_top{
+  padding-bottom: 12px;
+  text-align: left;
+  font-size: 12px;
+  color: #7D7D7D;
+  border-bottom: 1px solid #7D7D7D;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
 }
-@media (min-width: 1200px){
-  .head_one{
-    text-align: center;
-  }
-  .head_one .head_one_title{
-    font-size: 48px;
-    color: #343434;
-  }
-  .head_one .head_one_text{
-    font-size: 16px;
-    color: #B7B7B7;
-    margin-top: 30px;
-    margin-bottom: 50px;
-  }
+.header .header_top span:last-child{
+  letter-spacing: 14px;
+}
+.header .header_btn{
+  font-size: 28px;
+  color: #333333;
 }
