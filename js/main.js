@@ -17,11 +17,4 @@ $(function () {
 });
 
 // 服务项目
-$(function () {
-    var ourServiceWidth = $(window).width();
-    if(ourServiceWidth<1200){
-        $(".ourService .w").removeClass("w");
-    }else{
-        $(".ourService .w").addClass("w");
-    }
-});
+
