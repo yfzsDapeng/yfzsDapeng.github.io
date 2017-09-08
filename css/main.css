@@ -46,7 +46,7 @@
 /*服务项目 start*/
 .service{
     width: 100%;
-    height:1000px;
+    height:2000px;
     padding-top: 100px;
 }
 /*服务1*/
@@ -55,6 +55,7 @@
     height: 100%;
     background: url("../image/main_dengpao.png");
     background-size: 100%;
+    margin-bottom: 180px;
 }
 .serviceOneAll{
     width: 100%;
@@ -106,6 +107,66 @@
 }
 .serviceOne_3R{
     position: relative;
+}
+
+/*服务2*/
+.serviceTwo{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 70px;
+}
+.serviceTwo ul{
+    display: inline-block;
+    text-align: center;
+}
+.serviceTwo ul li{
+    float: left;
+    width: 300px;
+    height: 360px;
+}
+.serviceTwo ul li+li{
+   margin-left: 150px;
+}
+.serviceTwo ul img{
+    margin-bottom: 32px;
+}
+.serviceTwoAll{
+    width: 100%;
+    height: 175px;
+    position: relative;
+    line-height: 25px;
+}
+.serviceTwo ul .serviceTwo_title{
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 36px;
+}
+.serviceTwo ul .serviceTwo_content{
+    font-size: 12px;
+    color: #CDCDCD;
+}
+.serviceTwo ul .serviceTwo_link{
+    font-size: 12px;
+    color: #CDCDCD;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.serviceTwo ul .serviceTwo_tel{
+    font-size: 12px;
+    color: #CDCDCD;
+}
+.serviceTwo ul .serviceTwo_chuanzhen{
+    font-size: 12px;
+    color: #CDCDCD;
+}
+
+/*服务3*/
+.serviceThree{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
 }
 /*服务项目 end*/
 
